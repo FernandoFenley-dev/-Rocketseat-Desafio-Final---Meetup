@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+    // toda a vez que iniciar uma aplicação com o '~', encontrar o que estiver depois da '/' na pasta 'src'
+      "~/*": ["*"]
+    }
+  }
+}
