@@ -4,8 +4,8 @@
 
 # Projeto criado no Windows
 
-## Banco de dados do projeto: Postgrees
-## Banco de dados para fila de tarefas: Redis
+## Banco de dados do projeto: Postgres
+## Banco de dados para fila de tarefas: Redis-Alpine
 ## Servidor de e-mails: Mailtrap.io
 
 ## Instruções para configuração do projeto
@@ -18,10 +18,10 @@
 
 ## Instruções para execução da base de dados
 
-1-Executar as migrations
+1-Executar as migrations: 
 yarn sequelize db:migrate
 
-2-Executar as seeds para popular a base de dados
+2-Executar as seeds para popular a base de dados: 
 yarn sequelize db:seed:all
 
 ## Executar a aplicação
