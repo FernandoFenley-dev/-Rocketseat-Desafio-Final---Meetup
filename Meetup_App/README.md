@@ -20,6 +20,10 @@ a) adb devices // Para comunicação com o celular
 b) adb reverse tcp:3000 tcp:3000 // Para comunicação com o servidor configurado no backend. Sendo 3000 a porta padrão da aplicação backend.
 // Caso tenha configurado outra porta para o backend, alterar o comando para a nova porta.
 
+# Rodar a aplicação
+
+Para rodar a aplicação, basta executar: yarn start
+
 # Usuários configurados disponíveis para navegação no App
 
 email: user01@meetup.com
