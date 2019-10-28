@@ -22,7 +22,7 @@ b) adb reverse tcp:3000 tcp:3000 // Para comunicação com o servidor configurad
 
 # Rodar a aplicação
 
-Para rodar a aplicação, basta executar: yarn start
+Para rodar a aplicação, basta executar: react-native run-android
 
 # Usuários configurados disponíveis para navegação no App
 
