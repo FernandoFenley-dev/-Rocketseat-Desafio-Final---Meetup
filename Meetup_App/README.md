@@ -15,8 +15,9 @@ Caso seja necessário este procedimento em seu computador, ir na pasta "android"
 
 3 - Como utilizei meu celular Android para debugar a aplicação, foi necessário executar os seguintes comandos no cmd do Windows:
 
-adb devices // Para comunicação com o celular
-adb reverse tcp:3000 tcp:3000 // Para comunicação com o servidor configurado no backend. Sendo 3000 a porta padrão da aplicação backend.
+a) adb devices // Para comunicação com o celular
+
+b) adb reverse tcp:3000 tcp:3000 // Para comunicação com o servidor configurado no backend. Sendo 3000 a porta padrão da aplicação backend.
 // Caso tenha configurado outra porta para o backend, alterar o comando para a nova porta.
 
 # Usuários configurados disponíveis para navegação no App
